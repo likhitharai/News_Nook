@@ -11,28 +11,9 @@ const Navbar = ({setCategory}) => {
     </button>
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        
-        {/* <li className="nav-item">
-          <a className="nav-link" onClick={()=>setCategory("technology")}>Technology</a>
-        </li> */}
-        {/* <li className="nav-item">
-          <a className="nav-link" onClick={()=>setCategory("business")}>Business</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" onClick={()=>setCategory("health")}>Health</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" onClick={()=>setCategory("science")}>Science</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" onClick={()=>setCategory("sports")}>Sports</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" onClick={()=>setCategory("entertainment")}>Entertainment</a>
-        </li> */}
       </ul>
       <span className="navbar-text">
-      Stay informed with our news app.
+      Stay informed with our news app. 
       </span>
     </div>
   </div>
